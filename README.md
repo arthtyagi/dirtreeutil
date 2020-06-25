@@ -2,7 +2,7 @@
 ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/arthtyagi/dirutil/master)
 ![PyPI](https://img.shields.io/pypi/v/dirtreeutil)
 
-# dirutil
+# dirtreeutil
 A Python utility to list your directory like a tree with formatting and options.
 
 ### How to use?
@@ -13,3 +13,4 @@ OR
 
 This is **mainly** intended for visualizing directories with clean structures or fewer files as are most other tree utilities. 
 
+Available at : [PyPi](https://pypi.org/project/dirtreeutil/)
