@@ -1,6 +1,8 @@
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+![GitHub last commit (branch)](https://img.shields.io/github/last-commit/arthtyagi/dirutil/master)
+
 # dirutil
 A Python utility to list your directory like a tree with formatting and options.
-![GitHub last commit (branch)](https://img.shields.io/github/last-commit/arthtyagi/dirutil/master)
 
 ### How to use?
 
