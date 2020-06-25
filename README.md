@@ -3,7 +3,7 @@
 ![PyPI](https://img.shields.io/pypi/v/dirtreeutil)
 
 # dirtreeutil
-A Python utility to list your directory like a tree with formatting and options.
+A Python utility to list your directories like a tree with formatting and options.
 
 ### How to use?
 
