@@ -4,12 +4,12 @@
 # Dirtreeutil
 A Python utility to list your directory like a tree with formatting and options.
 
-### How to use?
+### How to install and use?
 
-As of now, this is not a PyPi package installable with `pip` hence you need to :
+* `pip3 install dirtreeutil` OR
+* `pip install dirtreeutil`
 
-* Clone the repo
-* run `python3 dirutil.py -d <PATH>`
+Now run, `dirtreeutil -d <PATH>`
 
 This is **mainly** intended for visualizing directories with clean strucutres or less files as are most other tree utilities. 
 
