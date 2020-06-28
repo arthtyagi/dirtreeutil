@@ -13,3 +13,12 @@ As of now, this is not a PyPi package installable with `pip` hence you need to :
 
 This is **mainly** intended for visualizing directories with clean strucutres or less files as are most other tree utilities. 
 
+### A demo maybe?
+
+Sure, this is what it'll look like. 
+
+![screen](https://user-images.githubusercontent.com/41021374/85948037-003fa900-b96c-11ea-9813-bc19640aa79c.gif)
+
+
+
+
