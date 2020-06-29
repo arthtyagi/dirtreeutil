@@ -4,7 +4,7 @@
 # Dirtreeutil
 A Python utility to list your directory like a tree with formatting and options.
 
-### How to install and use?
+## How to install and use?
 
 * `pip3 install dirtreeutil` OR
 * `pip install dirtreeutil`
