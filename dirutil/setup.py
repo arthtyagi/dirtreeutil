@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 setuptools.setup(
      name='dirtreeutil',  
-     version='0.1.1',
+     version='0.1.2',
      scripts=['dirtreeutil'] ,
      author="Arth Tyagi",
      author_email="arthtyagi7@gmail.com",

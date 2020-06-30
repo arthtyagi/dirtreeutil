@@ -1,0 +1,54 @@
+#!python
+from os import listdir, sep
+from sys import argv
+from os.path import abspath, basename, isdir
+
+def tree(dir, whitespace, printfiles=False):
+    print ( whitespace[:-1]+ '*-' + basename(abspath(dir)) + '/')
+    whitespace = whitespace + '-'
+    files = []
+    if printfiles:
+        files = listdir(dir)
+    else:
+        files = [x for x in listdir(dir) if isdir(dir + sep + x)]
+    count = 0
+    for file in files:
+        count += 1
+        print (whitespace + '|')
+        path = dir + sep + file
+        if isdir(path):
+            if count == len(files):
+                tree(path, whitespace + ' ', printfiles)
+            else:
+                tree(path, whitespace + '|', printfiles)
+        else:
+            print( whitespace + '*-' + file )
+
+def howto():
+    return '''Usage: %s [-d] <PATH>
+Options:
+-d     Print files as well as directories
+PATH    Path to process''' % basename(argv[0])
+
+def main():
+    if len(argv) == 1:
+        print (howto())
+    elif len(argv) == 2:
+        # print just directories
+        path = argv[1]
+        if isdir(path):
+            tree(path, ' ')
+        else:
+            print ('ERROR: \'' + path + '\' is not a directory')
+    elif len(argv) == 3 and argv[1] == '-d':
+        # print directories and files
+        path = argv[2]
+        if isdir(path):
+            tree(path, ' ', True)
+        else:
+            print ('ERROR: \'' + path + '\' is not a directory')
+    else:
+        print (howto())
+
+if __name__ == '__main__':
+    main()
