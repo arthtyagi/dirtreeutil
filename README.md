@@ -2,7 +2,7 @@
 ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/arthtyagi/dirutil/master)
 [![Downloads](https://pepy.tech/badge/dirtreeutil/week)](https://pepy.tech/project/dirtreeutil/week)
 [![Downloads](https://pepy.tech/badge/dirtreeutil)](https://pepy.tech/project/dirtreeutil)
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/2b03e1cc329143ee8467519c93543706)](https://www.codacy.com/manual/arthtyagi/dirtreeutil?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=arthtyagi/dirtreeutil&amp;utm_campaign=Badge_Grade)
+
 
 # Dirtreeutil
 
