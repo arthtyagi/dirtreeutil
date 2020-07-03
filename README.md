@@ -1,10 +1,9 @@
+# Dirtreeutil
+
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/arthtyagi/dirutil/master)
 [![Downloads](https://pepy.tech/badge/dirtreeutil/week)](https://pepy.tech/project/dirtreeutil/week)
 [![Downloads](https://pepy.tech/badge/dirtreeutil)](https://pepy.tech/project/dirtreeutil)
-
-
-# Dirtreeutil
 
 A Python utility to list your directory like a tree with formatting and options.
 
